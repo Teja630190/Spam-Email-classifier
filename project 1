@@ -1,0 +1,19 @@
+# Sample dataset
+text_data = [
+    'Win money now!',
+    'Lowest price for meds',
+    'Meeting at 10am',
+    'Project deadline extended',
+    'Congratulations, you won a prize!',
+    'Let’s grab lunch today',
+    'Get rich quick scheme',
+    'Important update on your account'
+]
+labels = [1, 1, 0, 0, 1, 0, 1, 0]  # 1 = Spam, 0 = Not Spam
+
+# Simple analysis
+spam_count = labels.count(1)
+not_spam_count = labels.count(0)
+
+print("Spam count:", spam_count)
+print("Not spam count:", not_spam_count)
